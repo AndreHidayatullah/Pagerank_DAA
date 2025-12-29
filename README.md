@@ -1,20 +1,31 @@
-# Analisis Spasial Influencer Teknologi TikTok
-## Menggunakan Algoritma PageRank
+# Analisis Spasial Influencer Teknologi TikTok Menggunakan PageRank
 
-### Deskripsi
-Project ini bertujuan untuk menganalisis pengaruh kreator TikTok bertema teknologi
-berdasarkan lokasi dan keterhubungan menggunakan algoritma PageRank.
+Repository ini berisi implementasi algoritma PageRank
+untuk menganalisis pengaruh kreator TikTok teknologi
+berdasarkan jaringan interaksi antar kreator.
+
+## Algoritma
+- PageRank
+- Graf Terarah
 
 ### Anggota Kelompok
 - Andre Hidayatullah Putra
 - Ziyan Faiq Rifai
 
-### Tools & Teknologi
+## Tools
 - Python
 - NetworkX
 - Pandas
-- Data TikTok
 
-### Output
+## Cara Menjalankan
+1. Install library:
+   pip install networkx pandas
+
+2. Jalankan program:
+   python pagerank_tiktok.py
+
+## Dataset
+Dataset interaksi kreator disusun berdasarkan contoh
+interaksi duet, sebutan, dan komentar antar kreator TikTok.
 - Visualisasi ranking influencer
 - Analisis pengaruh berbasis graf
